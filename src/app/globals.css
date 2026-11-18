@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "../../public/assets/styles/bonhardt-tokens.css";
+
+@theme inline {
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+  --color-brand: var(--brand-primary);
+  --color-brand-bright: var(--brand-primary-bright);
+  --color-brand-hover: var(--brand-primary-hover);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-body);
+  background-color: #ffffff;
+  color: var(--ink-primary);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: var(--font-body);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}

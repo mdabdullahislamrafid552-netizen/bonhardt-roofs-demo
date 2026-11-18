@@ -1,0 +1,30 @@
+/* Bonhardt Roof & Trades Co — Exact Roofer Light Editorial Palette + Bonhardt Logo Deep Slate */
+:root {
+  /* Primary Brand Color extracted from Bonhardt Roof & Trade Co logo mark (deep charcoal slate) */
+  --brand-primary: #2C353D;
+  --brand-primary-bright: #465461;
+  --brand-primary-hover: #1C2329;
+  --brand-primary-deep: #181E24;
+  --brand-primary-soft: rgba(44, 53, 61, 0.08);
+  --brand-primary-ring: rgba(44, 53, 61, 0.22);
+
+  /* Exact Roofer Master Template Surface & Ink Tokens */
+  --surface-canvas: #F4F4EB;
+  --surface-hero-start: #E6E7DF;
+  --surface-hero-end: #F4F4EB;
+  --surface-card: #FFFFFF;
+  --surface-border: #E5E5DB;
+  --surface-dark: #34342B;
+  --surface-dark-elevated: #434338;
+  --surface-dark-border: #606057;
+
+  --ink-primary: #34342B;
+  --ink-secondary: #606057;
+  --ink-muted: #717164;
+  --ink-subtle: #ADAD9F;
+  --ink-on-dark: #FFFFFF;
+  --ink-on-dark-muted: #D6D6CB;
+
+  --font-display: var(--font-plus-jakarta), var(--font-inclusive), "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-body: var(--font-plus-jakarta), "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
